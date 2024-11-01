@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <header>
-            <h1>Nothing Interesting</h1>
-            <h2>Quint Bunting's page</h2>
-        </header>
-        <profile>
+        <header class="header">
+            <h1 class="title">Nothing Interesting</h1>
+            <h2 class="subtitle">Quint Bunting's page</h2>
             <img src="download.jpg"/>
-            <h4>Quint Bunting</h4>
-            <h4>qrockrocks@gmail.com</h4>
-        </profile>
-        <bio>
-            <p>Hi I'm Quint Bunting, I'm very interested in Computer Programming for a while now, I always viewed as a carrer option but it wasn't until 7th grade when my mind was fully set. We did a project in my tech class where we used scratch to make projects. Scratch isn't very complicated but I still enjoyed the project and exploring how to make the "code" work. Since then I have learned Python and a little bit of Java, SAS, and HTML. Most of my best projects are in python, but I really hope I can learn more about other programming languages too.</p>
-            <p>Part of what I hope to ackomplish with my computer programming skills is to make my own video games, I know there are multiple computer programming jobs avaliable, some that are easier and pay more but I have enjoyed and dreamed of making video games ever since I was young and now I actually made a video game using pygame once I learn Java and C++ I will switch over to those. I have many ideas for video games a the moment, but i'm struggling to get motivated.</p>
-            <p>As for my carrer, I'm really don't care as long as it involves computer programming, I would prefer to program video games because I find it more fun, but pretty much all programming can be fun as long as i'm coding something interesting. Also computer programming carrers make a lot of money so i'm looking forward to that.</p>
-        </bio>
-        <skills>
-            <h3>Technical Skills:</h3>
-            <ol>
-                <li>Computer Programming</li>
-                <li>Downloading Illegal Software on Computer</li>
-                <li>Virtual Machine Creation</li>
-            </ol>
-            <h3>Non-Technical Skills:</h3>
-            <ol>
-                <li>Video Games</li>
-                <li>Holding Pee</li>
-                <li>Hitting Cars whilst parking</li>
-            </ol>
-        </skills>
-        <Projects>
-            <h3>Best Projects:</h3>
-            <ul>
-                <li>Duck Game - Made a video game where you play as a duck in pygame</li>
-                <li>Text Based DVD Logo - Made a moving DVD Logo in Python exclussively using text.</li>
-                <li>Pokemon Battle Simulatior - Made a text-based pokemon battle simulator in python.</li>
-            </ul>
-        </Projects>
+            <h4 class="name">Quint Bunting</h4>
+            <h4 class="name">qrockrocks@gmail.com</h4>
+        </header>
         <Links>
-            <a href="contact.html">Contact Info</a>
-            <a href="interests.html">What I am Interested In</a>
+            <ul class="navbar">
+                <li class="navi"><a href="index.html" class="name">Home</a></li>
+                <li class="navi"><a href="contact.html" class="name">Contact Info</a></li>
+                <li class="navi"><a href="interests.html" class="name">What I am Interested In</a></li>
+            </ul>
         </Links>
+        <row class="row">
+            <skills class="column">
+                <h3 class="name">Technical Skills:</h3>
+                <ol>
+                    <li class="list">Computer Programming</li>
+                    <li class="list">Downloading Illegal Software on Computer</li>
+                    <li class="list">Virtual Machine Creation</li>
+                </ol>
+                <h3 class="name">Non-Technical Skills:</h3>
+                <ol>
+                    <li class="list">Video Games</li>
+                    <li class="list">Holding Pee</li>
+                    <li class="list">Hitting Cars whilst parking</li>
+                </ol>
+            </skills>
+            <bio class="column">
+                <p class="paragraph">Hi I'm Quint Bunting, I'm very interested in Computer Programming for a while now, I always viewed as a carrer option but it wasn't until 7th grade when my mind was fully set. We did a project in my tech class where we used scratch to make projects. Scratch isn't very complicated but I still enjoyed the project and exploring how to make the "code" work. Since then I have learned Python and a little bit of Java, SAS, and HTML. Most of my best projects are in python, but I really hope I can learn more about other programming languages too.</p>
+                <p class="paragraph">Part of what I hope to ackomplish with my computer programming skills is to make my own video games, I know there are multiple computer programming jobs avaliable, some that are easier and pay more but I have enjoyed and dreamed of making video games ever since I was young and now I actually made a video game using pygame once I learn Java and C++ I will switch over to those. I have many ideas for video games a the moment, but i'm struggling to get motivated.</p>
+                <p class="paragraph">As for my carrer, I'm really don't care as long as it involves computer programming, I would prefer to program video games because I find it more fun, but pretty much all programming can be fun as long as i'm coding something interesting. Also computer programming carrers make a lot of money so i'm looking forward to that.</p>
+            </bio>
+            <Projects class="column">
+                <h3 class="name">Best Projects:</h3>
+                <ul>
+                    <li class="list">Duck Game - Made a video game where you play as a duck in pygame</li>
+                    <li class="list">Text Based DVD Logo - Made a moving DVD Logo in Python exclussively using text.</li>
+                    <li class="list">Pokemon Battle Simulatior - Made a text-based pokemon battle simulator in python.</li>
+                </ul>
+            </Projects>
+        </row>
+        <foot class="footer">
+            qrockrocks@gmail.com
+        </foot>
 
     </body>
 </html>
