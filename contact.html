@@ -10,6 +10,37 @@ Email Me:
 Call Me:
 <h4 class="list">867-5309</h4>
 
+<form action="contact.html" method="POST">
+    <section class = "name">
+        <label for"name">Name:</label>
+        <input type="text" name="name" id="name" required>
+    </section>
+    <section class = "email">
+        <label for"email">email:</label>
+        <input type="email" name="email" id="email" required>
+    </section>
+    <section class = "message" min="10">
+        <label for"message">Message:</label>
+        <input type="textarea" name="message" id="message">
+    </section>
+    <section class = "number">
+        <label for"number">Phone Number:</label>
+        <input type="number" name="number" id="number">
+    </section>
+    <section class = "radio">
+        <input type="radio" name="ques" id="ques" value="ques">
+        <label for="ques">question</label>
+        <input type="radio" name="com" id="com" value="com">
+        <label for="com">comment</label>
+        <input type="radio" name="sug" id="sug" value="sug">
+        <label for="sug">suggestion</label>
+            
+    </section>
+    <section class="submission">
+        <input type="Submit" value="Submit">    
+    </section>
+</form>
+
 <ul class="navbar">
     <li class="navi"><a href="index.html" class="name">Home</a></li>
     <li class="navi"><a href="contact.html" class="name">Contact Info</a></li>
